@@ -1,3 +1,6 @@
+
+网易云音乐API: <https://github.com/Binaryify/NeteaseCloudMusicApi>
+
 # wangyi-music
 
 ## Project setup
