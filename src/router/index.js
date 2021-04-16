@@ -1,16 +1,40 @@
-import { createRouter, createWebHistory } from 'vue-router'
-
+import { createRouter, createWebHistory } from 'vue-router';
+import RcmdPage from '../views/TopMenu/SongsRcmd';
+// import Home from '../views/Home.vue'
 
 const routes = [
   {
-    
+    path: '/',
+    name: 'RcmdPage',
+    component: RcmdPage
   },
   {
-    
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    // component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    path: '/NewMusic',
+    name: 'NewMusicPage',
+    component: () => import(   //动态加载组件
+      '../views/TopMenu/NewMusic.vue'
+    )
+  },
+  {
+    path: '/Radio',
+    name: 'RadioPage',
+    component: () => import (
+      '../views/TopMenu/Radio.vue'
+    )
+  },
+  {
+    path: '/Ranking',
+    name: 'RankingPage',
+    component: () => import (
+      '../views/TopMenu/Ranking.vue'
+    )
+  },
+  {
+    path: '/Singer',
+    name: 'SingerPage',
+    component: () => import (
+      '../views/TopMenu/Singer.vue'
+    )
   }
 ]
 
