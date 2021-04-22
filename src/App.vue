@@ -20,5 +20,12 @@ export default {
 }
 </script>
 <style lang="scss">
-
+  #app {
+      width: 82vw;
+      height: 90vh;
+      color: #fff;
+      background-color: #252525;
+      margin: 30px auto;
+      border-radius: 4px;
+  }
 </style>

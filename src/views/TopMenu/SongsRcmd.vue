@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        个性推荐页面
+        
     </div>
 </template>
 

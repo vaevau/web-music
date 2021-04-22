@@ -5,9 +5,13 @@ body,ul,ol,h1,h2,h3,h4,h5,h6,p,input,form{
 ul {
     list-style: none;
 }
+li {
+    cursor: default;
+}
 a{
     text-decoration: none;
 }
 *{
     box-sizing: border-box;
 }
+

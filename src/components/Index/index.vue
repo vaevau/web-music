@@ -1,6 +1,5 @@
 <template>
-    <div class="player-index">
-        NeteaseMusic
+    <div class="player-index">       
         <Top />
         <Main />
         <Bottom />
@@ -25,11 +24,6 @@ export default {
 
 <style lang="scss" scoped>
    .player-index {
-        width: 76vw;
-        height: 90vh;
-        color: #fff;
-        background-color: #333;
-        margin: 30px auto;
-        border-radius: 4px;
+       
    }
 </style>

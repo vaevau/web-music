@@ -25,8 +25,7 @@ function getPlaylist(limit){
             data: { limit },
             
             success(data){
-                resolve(data)
-                
+                resolve(data)                
             },
             error(err){
                 reject(err)
