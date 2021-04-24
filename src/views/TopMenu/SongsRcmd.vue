@@ -1,6 +1,6 @@
 <template>
-    <div class="container">
-        
+    <div class="aaa">
+        个性推荐页面
     </div>
 </template>
 
@@ -28,5 +28,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    
+    .aaa {
+        position: absolute;
+    }
 </style>

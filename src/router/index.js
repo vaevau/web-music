@@ -9,6 +9,13 @@ const routes = [
     component: RcmdPage
   },
   {
+    path: '/playlist',
+    name: 'PlaylisyPage',
+    component: () => import(
+      '../views/TopMenu/Playlist.vue'
+    )
+  },
+  {
     path: '/NewMusic',
     name: 'NewMusicPage',
     component: () => import(   //动态加载组件

@@ -4,7 +4,7 @@
             <MenuLeft />
         </div>
         <div class="main-content">
-            右侧主内容区域
+            <MainContent />
         </div>
     </main>
 </template>
@@ -12,11 +12,13 @@
 <script>
 
 import MenuLeft from './MenuLeft'
+import MainContent from './MainContent';
 
 export default {
     name: 'Main',
     components: {
-        MenuLeft
+        MenuLeft,
+        MainContent
     }
     
 }
@@ -27,7 +29,7 @@ export default {
         width: 100%;
         height: 450px;
         display: flex;
-        justify-content: space-between;   
+         
           
             .menu-left {
                 width: 20%;

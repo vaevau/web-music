@@ -1,12 +1,12 @@
 <template>
     <div class="container">
-        最新歌曲页面
+        歌单页面
     </div>
 </template>
 
 <script>
 export default {
-    name: 'NewMusicPage'
+    name: 'PlaylistPage'
 }
 </script>
 
