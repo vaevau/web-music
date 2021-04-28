@@ -24,6 +24,6 @@ export default {
 
 <style lang="scss" scoped>
    .player-index {
-       
+       width: 1000px;
    }
 </style>

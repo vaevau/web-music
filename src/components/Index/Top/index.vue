@@ -32,8 +32,8 @@ export default {
         background-color: #2d2d2d; 
         border-radius: 4px;
             .container {                                               
-                height: 56px;
-                line-height: 56px;                               
+                height: 54px;
+                line-height: 54px;                               
                 display: flex;
                 align-self: center;
                 justify-content: space-between;          

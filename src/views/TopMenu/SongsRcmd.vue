@@ -1,6 +1,7 @@
 <template>
-    <div class="aaa">
-        个性推荐页面
+    <div class="container">
+        <SongsRcmd />
+        <Banner />
     </div>
 </template>
 
@@ -10,12 +11,17 @@
 import { getBanner, getPlaylist, getExclusivelist } from '../../services/request';
 import getData from '../../services'
 
-
-
+import SongsRcmd from '../../components/Index/Main/MainContent/TopMenuPage/SongsRcmdPage/index'
+import Banner from '../../components/Index/Main/MainContent/TopMenuPage/SongsRcmdPage/Banner'
 import { onMounted } from 'vue';
+
 
 export default {
     name: 'RcmdPage',
+    components: {
+        SongsRcmd,
+        Banner
+    },
     setup(){
         onMounted(() => {
             getData('type', '0')
@@ -28,7 +34,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    .aaa {
-        position: absolute;
-    }
+   .container {
+   }
 </style>

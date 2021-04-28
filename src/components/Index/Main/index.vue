@@ -29,13 +29,17 @@ export default {
         width: 100%;
         height: 450px;
         display: flex;
-         
-          
+        border-bottom: 1px solid #212121;          
             .menu-left {
-                width: 20%;
-                height: 100%;                
+                width: 200px;
+                height: 450px;                
                 background-color: #202020;                
                 overflow: auto; 
+            }
+            .main-content {
+                width: 800px;
+                height: 450px;              
+                overflow: auto;
             }
     }
 </style>

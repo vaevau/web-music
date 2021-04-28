@@ -1,15 +1,14 @@
 <template>
-    <div class="container">
-        歌单页面
+    <div class="">
+       
     </div>
 </template>
 
 <script>
 export default {
-    name: 'PlaylistPage'
+    name: 'SongsRcmd'
 }
 </script>
-
 <style lang="scss" scoped>
     
 </style>
